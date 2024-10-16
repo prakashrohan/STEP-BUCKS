@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D3C16E729EF4BD300B0BCB1 /* StepBuckssApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C16E629EF4BD300B0BCB1 /* StepBuckssApp.swift */; };
+		9D3C16EB29EF4BD400B0BCB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D3C16EA29EF4BD400B0BCB1 /* Assets.xcassets */; };
+		9D3C16EE29EF4BD400B0BCB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D3C16ED29EF4BD400B0BCB1 /* Preview Assets.xcassets */; };
+		9D3C16F629EF4BF100B0BCB1 /* FeedbackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C16F529EF4BF100B0BCB1 /* FeedbackModel.swift */; };
+		9D3C16F829EF4C1D00B0BCB1 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C16F729EF4C1D00B0BCB1 /* UserModel.swift */; };
+		9D3C16FB29EF4C6000B0BCB1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C16FA29EF4C6000B0BCB1 /* HomeViewModel.swift */; };
+		9D3C170029EF4D3200B0BCB1 /* ActualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C16FF29EF4D3200B0BCB1 /* ActualView.swift */; };
+		9D3C170229EF4D7800B0BCB1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C170129EF4D7800B0BCB1 /* LoginView.swift */; };
+		9D3C170429EF4F0400B0BCB1 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C170329EF4F0400B0BCB1 /* SignUpView.swift */; };
+		9D3C170629EF57CC00B0BCB1 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C170529EF57CC00B0BCB1 /* LoginViewModel.swift */; };
+		9D3C170929EFCF7300B0BCB1 /* AccountVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C170829EFCF7300B0BCB1 /* AccountVIew.swift */; };
+		9D3C170B29EFD28000B0BCB1 /* EditAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C170A29EFD28000B0BCB1 /* EditAccountView.swift */; };
+		9D3C170D29EFDFFA00B0BCB1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C170C29EFDFFA00B0BCB1 /* HomeView.swift */; };
+		9D3C170F29EFFBCF00B0BCB1 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C170E29EFFBCF00B0BCB1 /* WalletView.swift */; };
+		9D3C171129F002FB00B0BCB1 /* AddMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C171029F002FB00B0BCB1 /* AddMoneyView.swift */; };
+		9D3C171329F04A9A00B0BCB1 /* WithdrawMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C171229F04A9A00B0BCB1 /* WithdrawMoney.swift */; };
+		9D85E90029F05B5700FE127A /* ContestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D85E8FF29F05B5700FE127A /* ContestView.swift */; };
+		9D85E90229F05E4D00FE127A /* ContestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D85E90129F05E4D00FE127A /* ContestModel.swift */; };
+		9D85E90429F1427000FE127A /* ContestVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D85E90329F1427000FE127A /* ContestVIewModel.swift */; };
+		9D85E90829F1561800FE127A /* ContestInfoVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D85E90729F1561800FE127A /* ContestInfoVIew.swift */; };
+		9DE5456429F514000057E0C0 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE5456329F514000057E0C0 /* LocationsDataService.swift */; };
+		9DE5456629F514180057E0C0 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE5456529F514180057E0C0 /* LocationsViewModel.swift */; };
+		9DE5456829F514310057E0C0 /* LocationMapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE5456729F514310057E0C0 /* LocationMapAnnotation.swift */; };
+		9DE5456A29F514450057E0C0 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE5456929F514450057E0C0 /* LocationDetailView.swift */; };
+		9DE5456C29F514580057E0C0 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE5456B29F514580057E0C0 /* LocationPreviewView.swift */; };
+		9DE5456E29F514750057E0C0 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE5456D29F514750057E0C0 /* LocationsListView.swift */; };
+		9DE5457029F5147D0057E0C0 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE5456F29F5147D0057E0C0 /* LocationsView.swift */; };
+		9DE5457229F5149C0057E0C0 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE5457129F5149C0057E0C0 /* Locations.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9D3C16E329EF4BD300B0BCB1 /* StepBuckss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepBuckss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D3C16E629EF4BD300B0BCB1 /* StepBuckssApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepBuckssApp.swift; sourceTree = "<group>"; };
+		9D3C16EA29EF4BD400B0BCB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D3C16ED29EF4BD400B0BCB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D3C16F529EF4BF100B0BCB1 /* FeedbackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackModel.swift; sourceTree = "<group>"; };
+		9D3C16F729EF4C1D00B0BCB1 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		9D3C16FA29EF4C6000B0BCB1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		9D3C16FF29EF4D3200B0BCB1 /* ActualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualView.swift; sourceTree = "<group>"; };
+		9D3C170129EF4D7800B0BCB1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9D3C170329EF4F0400B0BCB1 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		9D3C170529EF57CC00B0BCB1 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		9D3C170729EF594E00B0BCB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9D3C170829EFCF7300B0BCB1 /* AccountVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVIew.swift; sourceTree = "<group>"; };
+		9D3C170A29EFD28000B0BCB1 /* EditAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAccountView.swift; sourceTree = "<group>"; };
+		9D3C170C29EFDFFA00B0BCB1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9D3C170E29EFFBCF00B0BCB1 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		9D3C171029F002FB00B0BCB1 /* AddMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMoneyView.swift; sourceTree = "<group>"; };
+		9D3C171229F04A9A00B0BCB1 /* WithdrawMoney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawMoney.swift; sourceTree = "<group>"; };
+		9D85E8FF29F05B5700FE127A /* ContestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestView.swift; sourceTree = "<group>"; };
+		9D85E90129F05E4D00FE127A /* ContestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestModel.swift; sourceTree = "<group>"; };
+		9D85E90329F1427000FE127A /* ContestVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestVIewModel.swift; sourceTree = "<group>"; };
+		9D85E90729F1561800FE127A /* ContestInfoVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestInfoVIew.swift; sourceTree = "<group>"; };
+		9DE5456329F514000057E0C0 /* LocationsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		9DE5456529F514180057E0C0 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		9DE5456729F514310057E0C0 /* LocationMapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotation.swift; sourceTree = "<group>"; };
+		9DE5456929F514450057E0C0 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		9DE5456B29F514580057E0C0 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		9DE5456D29F514750057E0C0 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		9DE5456F29F5147D0057E0C0 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		9DE5457129F5149C0057E0C0 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D3C16E029EF4BD300B0BCB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D3C16DA29EF4BD300B0BCB1 = {
+			isa = PBXGroup;
+			children = (
+				9D3C16E529EF4BD300B0BCB1 /* StepBuckss */,
+				9D3C16E429EF4BD300B0BCB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D3C16E429EF4BD300B0BCB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D3C16E329EF4BD300B0BCB1 /* StepBuckss.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D3C16E529EF4BD300B0BCB1 /* StepBuckss */ = {
+			isa = PBXGroup;
+			children = (
+				9D3C170729EF594E00B0BCB1 /* Info.plist */,
+				9D3C16E629EF4BD300B0BCB1 /* StepBuckssApp.swift */,
+				9DE5456229F513E30057E0C0 /* DataServices */,
+				9D3C16FE29EF4D0400B0BCB1 /* Views */,
+				9D3C16F929EF4C5100B0BCB1 /* ViewModel */,
+				9D3C16F429EF4BE000B0BCB1 /* Models */,
+				9D3C16EA29EF4BD400B0BCB1 /* Assets.xcassets */,
+				9D3C16EC29EF4BD400B0BCB1 /* Preview Content */,
+			);
+			path = StepBuckss;
+			sourceTree = "<group>";
+		};
+		9D3C16EC29EF4BD400B0BCB1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9D3C16ED29EF4BD400B0BCB1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9D3C16F429EF4BE000B0BCB1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9D85E90129F05E4D00FE127A /* ContestModel.swift */,
+				9D3C16F529EF4BF100B0BCB1 /* FeedbackModel.swift */,
+				9D3C16F729EF4C1D00B0BCB1 /* UserModel.swift */,
+				9DE5457129F5149C0057E0C0 /* Locations.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9D3C16F929EF4C5100B0BCB1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9D3C16FA29EF4C6000B0BCB1 /* HomeViewModel.swift */,
+				9D3C170529EF57CC00B0BCB1 /* LoginViewModel.swift */,
+				9D85E90329F1427000FE127A /* ContestVIewModel.swift */,
+				9DE5456529F514180057E0C0 /* LocationsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9D3C16FE29EF4D0400B0BCB1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9D3C16FF29EF4D3200B0BCB1 /* ActualView.swift */,
+				9D3C170829EFCF7300B0BCB1 /* AccountVIew.swift */,
+				9D3C170E29EFFBCF00B0BCB1 /* WalletView.swift */,
+				9D3C171029F002FB00B0BCB1 /* AddMoneyView.swift */,
+				9D3C171229F04A9A00B0BCB1 /* WithdrawMoney.swift */,
+				9D3C170129EF4D7800B0BCB1 /* LoginView.swift */,
+				9D3C170329EF4F0400B0BCB1 /* SignUpView.swift */,
+				9D3C170A29EFD28000B0BCB1 /* EditAccountView.swift */,
+				9D3C170C29EFDFFA00B0BCB1 /* HomeView.swift */,
+				9D85E8FF29F05B5700FE127A /* ContestView.swift */,
+				9D85E90729F1561800FE127A /* ContestInfoVIew.swift */,
+				9DE5456729F514310057E0C0 /* LocationMapAnnotation.swift */,
+				9DE5456929F514450057E0C0 /* LocationDetailView.swift */,
+				9DE5456B29F514580057E0C0 /* LocationPreviewView.swift */,
+				9DE5456D29F514750057E0C0 /* LocationsListView.swift */,
+				9DE5456F29F5147D0057E0C0 /* LocationsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9DE5456229F513E30057E0C0 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				9DE5456329F514000057E0C0 /* LocationsDataService.swift */,
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D3C16E229EF4BD300B0BCB1 /* StepBuckss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D3C16F129EF4BD400B0BCB1 /* Build configuration list for PBXNativeTarget "StepBuckss" */;
+			buildPhases = (
+				9D3C16DF29EF4BD300B0BCB1 /* Sources */,
+				9D3C16E029EF4BD300B0BCB1 /* Frameworks */,
+				9D3C16E129EF4BD300B0BCB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StepBuckss;
+			productName = StepBuckss;
+			productReference = 9D3C16E329EF4BD300B0BCB1 /* StepBuckss.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D3C16DB29EF4BD300B0BCB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9D3C16E229EF4BD300B0BCB1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 9D3C16DE29EF4BD300B0BCB1 /* Build configuration list for PBXProject "StepBuckss" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D3C16DA29EF4BD300B0BCB1;
+			productRefGroup = 9D3C16E429EF4BD300B0BCB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D3C16E229EF4BD300B0BCB1 /* StepBuckss */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D3C16E129EF4BD300B0BCB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D3C16EE29EF4BD400B0BCB1 /* Preview Assets.xcassets in Resources */,
+				9D3C16EB29EF4BD400B0BCB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D3C16DF29EF4BD300B0BCB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D3C16F629EF4BF100B0BCB1 /* FeedbackModel.swift in Sources */,
+				9D3C170F29EFFBCF00B0BCB1 /* WalletView.swift in Sources */,
+				9DE5456A29F514450057E0C0 /* LocationDetailView.swift in Sources */,
+				9D3C170B29EFD28000B0BCB1 /* EditAccountView.swift in Sources */,
+				9DE5457229F5149C0057E0C0 /* Locations.swift in Sources */,
+				9D3C170029EF4D3200B0BCB1 /* ActualView.swift in Sources */,
+				9D85E90429F1427000FE127A /* ContestVIewModel.swift in Sources */,
+				9D3C170929EFCF7300B0BCB1 /* AccountVIew.swift in Sources */,
+				9D3C16F829EF4C1D00B0BCB1 /* UserModel.swift in Sources */,
+				9D85E90029F05B5700FE127A /* ContestView.swift in Sources */,
+				9D3C16FB29EF4C6000B0BCB1 /* HomeViewModel.swift in Sources */,
+				9D85E90229F05E4D00FE127A /* ContestModel.swift in Sources */,
+				9D3C170229EF4D7800B0BCB1 /* LoginView.swift in Sources */,
+				9D3C170429EF4F0400B0BCB1 /* SignUpView.swift in Sources */,
+				9D85E90829F1561800FE127A /* ContestInfoVIew.swift in Sources */,
+				9D3C170D29EFDFFA00B0BCB1 /* HomeView.swift in Sources */,
+				9DE5456C29F514580057E0C0 /* LocationPreviewView.swift in Sources */,
+				9DE5456829F514310057E0C0 /* LocationMapAnnotation.swift in Sources */,
+				9DE5457029F5147D0057E0C0 /* LocationsView.swift in Sources */,
+				9DE5456429F514000057E0C0 /* LocationsDataService.swift in Sources */,
+				9D3C171329F04A9A00B0BCB1 /* WithdrawMoney.swift in Sources */,
+				9D3C16E729EF4BD300B0BCB1 /* StepBuckssApp.swift in Sources */,
+				9D3C170629EF57CC00B0BCB1 /* LoginViewModel.swift in Sources */,
+				9DE5456E29F514750057E0C0 /* LocationsListView.swift in Sources */,
+				9D3C171129F002FB00B0BCB1 /* AddMoneyView.swift in Sources */,
+				9DE5456629F514180057E0C0 /* LocationsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9D3C16EF29EF4BD400B0BCB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D3C16F029EF4BD400B0BCB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D3C16F229EF4BD400B0BCB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StepBuckss/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StepBuckss/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.walk.StepBuckss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D3C16F329EF4BD400B0BCB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StepBuckss/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StepBuckss/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.walk.StepBuckss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D3C16DE29EF4BD300B0BCB1 /* Build configuration list for PBXProject "StepBuckss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D3C16EF29EF4BD400B0BCB1 /* Debug */,
+				9D3C16F029EF4BD400B0BCB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D3C16F129EF4BD400B0BCB1 /* Build configuration list for PBXNativeTarget "StepBuckss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D3C16F229EF4BD400B0BCB1 /* Debug */,
+				9D3C16F329EF4BD400B0BCB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D3C16DB29EF4BD300B0BCB1 /* Project object */;
+}
